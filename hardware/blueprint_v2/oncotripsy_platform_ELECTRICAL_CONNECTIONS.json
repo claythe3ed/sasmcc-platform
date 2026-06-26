@@ -1,0 +1,1432 @@
+[
+  {
+    "type": "power",
+    "label": "Main AC In",
+    "source": "isolation_transformer",
+    "target": "24v_power_supply",
+    "current": "2A",
+    "voltage": "240VAC"
+  },
+  {
+    "type": "power",
+    "label": "Zynq Main Power",
+    "source": "24v_power_supply",
+    "target": "main_mcu",
+    "current": "5A",
+    "voltage": "24V"
+  },
+  {
+    "type": "power",
+    "label": "RF Amp A Power",
+    "source": "24v_power_supply",
+    "target": "rf_amplifier_a",
+    "current": "10A",
+    "voltage": "24V"
+  },
+  {
+    "type": "power",
+    "label": "RF Amp B Power",
+    "source": "24v_power_supply",
+    "target": "rf_amplifier_b",
+    "current": "10A",
+    "voltage": "24V"
+  },
+  {
+    "type": "power",
+    "label": "To 5V Buck",
+    "source": "24v_power_supply",
+    "target": "5v_buck_converter",
+    "current": "2A",
+    "voltage": "24V"
+  },
+  {
+    "type": "power",
+    "label": "To 12V Buck",
+    "source": "24v_power_supply",
+    "target": "12v_buck_converter",
+    "current": "1A",
+    "voltage": "24V"
+  },
+  {
+    "type": "power",
+    "label": "X Stepper Driver Power",
+    "source": "24v_power_supply",
+    "target": "xyz_stepper_driver_x",
+    "current": "1A",
+    "voltage": "24V"
+  },
+  {
+    "type": "power",
+    "label": "Y Stepper Driver Power",
+    "source": "24v_power_supply",
+    "target": "xyz_stepper_driver_y",
+    "current": "1A",
+    "voltage": "24V"
+  },
+  {
+    "type": "power",
+    "label": "Z Stepper Driver Power",
+    "source": "24v_power_supply",
+    "target": "xyz_stepper_driver_z",
+    "current": "1A",
+    "voltage": "24V"
+  },
+  {
+    "type": "power",
+    "label": "Turret Stepper Driver Power",
+    "source": "24v_power_supply",
+    "target": "transducer_turret_stepper_driver",
+    "current": "1A",
+    "voltage": "24V"
+  },
+  {
+    "type": "power",
+    "label": "Reflector Stepper Driver Power",
+    "source": "24v_power_supply",
+    "target": "reflector_stage_stepper_driver",
+    "current": "1A",
+    "voltage": "24V"
+  },
+  {
+    "type": "power",
+    "label": "Peltier Chamber Power",
+    "source": "24v_power_supply",
+    "target": "peltier_tec_chamber",
+    "current": "4A",
+    "voltage": "24V"
+  },
+  {
+    "type": "power",
+    "label": "Animal Stage Heater Power",
+    "source": "24v_power_supply",
+    "target": "animal_stage_heater",
+    "current": "2A",
+    "voltage": "24V"
+  },
+  {
+    "type": "power",
+    "label": "Chiller TEC Power",
+    "source": "24v_power_supply",
+    "target": "chiller_loop_thermoelectric",
+    "current": "8A",
+    "voltage": "24V"
+  },
+  {
+    "type": "power",
+    "label": "Circulation Pump Power",
+    "source": "24v_power_supply",
+    "target": "circulation_pump",
+    "current": "1A",
+    "voltage": "12V"
+  },
+  {
+    "type": "power",
+    "label": "Watchdog MCU Power",
+    "source": "5v_buck_converter",
+    "target": "safety_watchdog_mcu",
+    "current": "100mA",
+    "voltage": "5V"
+  },
+  {
+    "type": "power",
+    "label": "DDS DAC Power",
+    "source": "5v_buck_converter",
+    "target": "dds_dac",
+    "current": "500mA",
+    "voltage": "5V"
+  },
+  {
+    "type": "power",
+    "label": "Attenuator Power",
+    "source": "5v_buck_converter",
+    "target": "rf_variable_attenuator",
+    "current": "50mA",
+    "voltage": "5V"
+  },
+  {
+    "type": "power",
+    "label": "RF Switch Power",
+    "source": "5v_buck_converter",
+    "target": "rf_switch",
+    "current": "50mA",
+    "voltage": "5V"
+  },
+  {
+    "type": "power",
+    "label": "Power Monitor ADC Power",
+    "source": "5v_buck_converter",
+    "target": "power_monitor_adc",
+    "current": "50mA",
+    "voltage": "5V"
+  },
+  {
+    "type": "power",
+    "label": "Chamber RTD Amp Power",
+    "source": "5v_buck_converter",
+    "target": "rtd_amplifier_chamber",
+    "current": "20mA",
+    "voltage": "5V"
+  },
+  {
+    "type": "power",
+    "label": "O2 Sensor Power",
+    "source": "5v_buck_converter",
+    "target": "optical_o2_sensor",
+    "current": "50mA",
+    "voltage": "5V"
+  },
+  {
+    "type": "power",
+    "label": "CO2 Sensor Power",
+    "source": "5v_buck_converter",
+    "target": "co2_sensor",
+    "current": "100mA",
+    "voltage": "5V"
+  },
+  {
+    "type": "power",
+    "label": "Animal RTD Amp Power",
+    "source": "5v_buck_converter",
+    "target": "rtd_amplifier_animal_stage",
+    "current": "20mA",
+    "voltage": "5V"
+  },
+  {
+    "type": "power",
+    "label": "Respiration Sensor Power",
+    "source": "5v_buck_converter",
+    "target": "respiration_pressure_sensor",
+    "current": "10mA",
+    "voltage": "5V"
+  },
+  {
+    "type": "power",
+    "label": "Water Bath Temp Sensor Power",
+    "source": "5v_buck_converter",
+    "target": "water_bath_temp_sensor",
+    "current": "10mA",
+    "voltage": "5V"
+  },
+  {
+    "type": "power",
+    "label": "Display Power",
+    "source": "5v_buck_converter",
+    "target": "display_touchscreen",
+    "current": "1A",
+    "voltage": "5V"
+  },
+  {
+    "type": "power",
+    "label": "Camera Power",
+    "source": "5v_buck_converter",
+    "target": "imaging_camera",
+    "current": "500mA",
+    "voltage": "5V"
+  },
+  {
+    "type": "power",
+    "label": "LED Illumination Power",
+    "source": "5v_buck_converter",
+    "target": "led_illumination_470nm",
+    "current": "500mA",
+    "voltage": "5V"
+  },
+  {
+    "type": "power",
+    "label": "Hydrophone Preamp Power",
+    "source": "5v_buck_converter",
+    "target": "hydrophone_preamp",
+    "current": "100mA",
+    "voltage": "5V"
+  },
+  {
+    "type": "power",
+    "label": "PCD Sensor Power",
+    "source": "5v_buck_converter",
+    "target": "pcd_sensor",
+    "current": "50mA",
+    "voltage": "5V"
+  },
+  {
+    "type": "power",
+    "label": "PCD Filter Bank Power",
+    "source": "5v_buck_converter",
+    "target": "pcd_filter_bank",
+    "current": "100mA",
+    "voltage": "5V"
+  },
+  {
+    "type": "power",
+    "label": "To 3.3V LDO",
+    "source": "5v_buck_converter",
+    "target": "3_3v_ldo_regulator",
+    "current": "1A",
+    "voltage": "5V"
+  },
+  {
+    "type": "power",
+    "label": "X Encoder Power",
+    "source": "5v_buck_converter",
+    "target": "xyz_encoder_x",
+    "current": "50mA",
+    "voltage": "5V"
+  },
+  {
+    "type": "power",
+    "label": "Y Encoder Power",
+    "source": "5v_buck_converter",
+    "target": "xyz_encoder_y",
+    "current": "50mA",
+    "voltage": "5V"
+  },
+  {
+    "type": "power",
+    "label": "Z Encoder Power",
+    "source": "5v_buck_converter",
+    "target": "xyz_encoder_z",
+    "current": "50mA",
+    "voltage": "5V"
+  },
+  {
+    "type": "power",
+    "label": "Reflector Encoder Power",
+    "source": "5v_buck_converter",
+    "target": "reflector_linear_encoder",
+    "current": "50mA",
+    "voltage": "5V"
+  },
+  {
+    "type": "power",
+    "label": "Zynq IO/FPGA Power",
+    "source": "3_3v_ldo_regulator",
+    "target": "main_mcu",
+    "current": "1A",
+    "voltage": "3.3V"
+  },
+  {
+    "type": "power",
+    "label": "IMN1 Stepper Driver Power",
+    "source": "12v_buck_converter",
+    "target": "impedance_matching_network_1",
+    "current": "100mA",
+    "voltage": "12V"
+  },
+  {
+    "type": "power",
+    "label": "IMN2 Stepper Driver Power",
+    "source": "12v_buck_converter",
+    "target": "impedance_matching_network_2",
+    "current": "100mA",
+    "voltage": "12V"
+  },
+  {
+    "type": "power",
+    "label": "IMN3 Stepper Driver Power",
+    "source": "12v_buck_converter",
+    "target": "impedance_matching_network_3",
+    "current": "100mA",
+    "voltage": "12V"
+  },
+  {
+    "type": "power",
+    "label": "IMN4 Stepper Driver Power",
+    "source": "12v_buck_converter",
+    "target": "impedance_matching_network_4",
+    "current": "100mA",
+    "voltage": "12V"
+  },
+  {
+    "type": "power",
+    "label": "IMN5 Stepper Driver Power",
+    "source": "12v_buck_converter",
+    "target": "impedance_matching_network_5",
+    "current": "100mA",
+    "voltage": "12V"
+  },
+  {
+    "type": "power",
+    "label": "IMN6 Stepper Driver Power",
+    "source": "12v_buck_converter",
+    "target": "impedance_matching_network_6",
+    "current": "100mA",
+    "voltage": "12V"
+  },
+  {
+    "type": "power",
+    "label": "IMN7 Stepper Driver Power",
+    "source": "12v_buck_converter",
+    "target": "impedance_matching_network_7",
+    "current": "100mA",
+    "voltage": "12V"
+  },
+  {
+    "type": "power",
+    "label": "IMN8 Stepper Driver Power",
+    "source": "12v_buck_converter",
+    "target": "impedance_matching_network_8",
+    "current": "100mA",
+    "voltage": "12V"
+  },
+  {
+    "type": "data",
+    "label": "DDS DAC Config",
+    "source": "main_mcu",
+    "target": "dds_dac",
+    "protocol": "spi",
+    "sourcePin": "PL_SPI",
+    "targetPin": "SPI"
+  },
+  {
+    "type": "data",
+    "label": "RF Signal Out",
+    "source": "dds_dac",
+    "target": "rf_variable_attenuator",
+    "protocol": "analog",
+    "sourcePin": "Differential_RF_Out",
+    "targetPin": "RF_In"
+  },
+  {
+    "type": "data",
+    "label": "Attenuator Control",
+    "source": "main_mcu",
+    "target": "rf_variable_attenuator",
+    "protocol": "spi",
+    "sourcePin": "PL_SPI",
+    "targetPin": "SPI"
+  },
+  {
+    "type": "data",
+    "label": "RF to Switch",
+    "source": "rf_variable_attenuator",
+    "target": "rf_switch",
+    "protocol": "analog",
+    "sourcePin": "RF_Out",
+    "targetPin": "RF_In"
+  },
+  {
+    "type": "data",
+    "label": "RF Switch Enable",
+    "source": "main_mcu",
+    "target": "rf_switch",
+    "protocol": "gpio",
+    "sourcePin": "FPGA_GPIO",
+    "targetPin": "TTL_Control"
+  },
+  {
+    "type": "data",
+    "label": "RF to Amp A Matrix",
+    "source": "rf_switch",
+    "target": "rf_relay_matrix_a_in",
+    "protocol": "analog",
+    "sourcePin": "RF_Out",
+    "targetPin": "RF_In"
+  },
+  {
+    "type": "data",
+    "label": "Amp A Matrix Control",
+    "source": "main_mcu",
+    "target": "rf_relay_matrix_a_in",
+    "protocol": "gpio",
+    "sourcePin": "FPGA_GPIO",
+    "targetPin": "Control"
+  },
+  {
+    "type": "data",
+    "label": "To RF Amp A",
+    "source": "rf_relay_matrix_a_in",
+    "target": "rf_amplifier_a",
+    "protocol": "analog",
+    "sourcePin": "RF_Out_1",
+    "targetPin": "RF_In"
+  },
+  {
+    "type": "data",
+    "label": "To RF Amp B (for redundancy)",
+    "source": "rf_relay_matrix_a_in",
+    "target": "rf_relay_matrix_b_in",
+    "protocol": "analog",
+    "sourcePin": "RF_Out_2",
+    "targetPin": "RF_In"
+  },
+  {
+    "type": "data",
+    "label": "Amp A Out to Coupler",
+    "source": "rf_amplifier_a",
+    "target": "directional_coupler_a",
+    "protocol": "analog",
+    "sourcePin": "RF_Out",
+    "targetPin": "Main_In"
+  },
+  {
+    "type": "data",
+    "label": "Coupled Amp A Out to Output Matrix",
+    "source": "directional_coupler_a",
+    "target": "rf_relay_matrix_output",
+    "protocol": "analog",
+    "sourcePin": "Main_Out",
+    "targetPin": "RF_In_1"
+  },
+  {
+    "type": "data",
+    "label": "Amp A Enable",
+    "source": "main_mcu",
+    "target": "rf_amplifier_a",
+    "protocol": "gpio",
+    "sourcePin": "FPGA_GPIO",
+    "targetPin": "TTL_Enable"
+  },
+  {
+    "type": "data",
+    "label": "Amp A Monitor",
+    "source": "rf_amplifier_a",
+    "target": "power_monitor_adc",
+    "protocol": "analog",
+    "sourcePin": "Monitor_Out",
+    "targetPin": "Analog_In_1"
+  },
+  {
+    "type": "data",
+    "label": "Amp B Matrix Control",
+    "source": "main_mcu",
+    "target": "rf_relay_matrix_b_in",
+    "protocol": "gpio",
+    "sourcePin": "FPGA_GPIO",
+    "targetPin": "Control"
+  },
+  {
+    "type": "data",
+    "label": "To RF Amp B",
+    "source": "rf_relay_matrix_b_in",
+    "target": "rf_amplifier_b",
+    "protocol": "analog",
+    "sourcePin": "RF_Out_1",
+    "targetPin": "RF_In"
+  },
+  {
+    "type": "data",
+    "label": "Amp B Out to Coupler",
+    "source": "rf_amplifier_b",
+    "target": "directional_coupler_b",
+    "protocol": "analog",
+    "sourcePin": "RF_Out",
+    "targetPin": "Main_In"
+  },
+  {
+    "type": "data",
+    "label": "Coupled Amp B Out to Output Matrix",
+    "source": "directional_coupler_b",
+    "target": "rf_relay_matrix_output",
+    "protocol": "analog",
+    "sourcePin": "Main_Out",
+    "targetPin": "RF_In_2"
+  },
+  {
+    "type": "data",
+    "label": "Amp B Enable",
+    "source": "main_mcu",
+    "target": "rf_amplifier_b",
+    "protocol": "gpio",
+    "sourcePin": "FPGA_GPIO",
+    "targetPin": "TTL_Enable"
+  },
+  {
+    "type": "data",
+    "label": "Amp B Monitor",
+    "source": "rf_amplifier_b",
+    "target": "power_monitor_adc",
+    "protocol": "analog",
+    "sourcePin": "Monitor_Out",
+    "targetPin": "Analog_In_2"
+  },
+  {
+    "type": "data",
+    "label": "Coupled Fwd Power A (Feedback)",
+    "source": "directional_coupler_a",
+    "target": "power_monitor_adc",
+    "protocol": "analog",
+    "sourcePin": "Coupled_Forward",
+    "targetPin": "Analog_In_1"
+  },
+  {
+    "type": "data",
+    "label": "Coupled Ref Power A (Feedback)",
+    "source": "directional_coupler_a",
+    "target": "power_monitor_adc",
+    "protocol": "analog",
+    "sourcePin": "Coupled_Reflected",
+    "targetPin": "Analog_In_2"
+  },
+  {
+    "type": "data",
+    "label": "Coupled Fwd Power B (Feedback)",
+    "source": "directional_coupler_b",
+    "target": "power_monitor_adc",
+    "protocol": "analog",
+    "sourcePin": "Coupled_Forward",
+    "targetPin": "Analog_In_3"
+  },
+  {
+    "type": "data",
+    "label": "Coupled Ref Power B (Feedback)",
+    "source": "directional_coupler_b",
+    "target": "power_monitor_adc",
+    "protocol": "analog",
+    "sourcePin": "Coupled_Reflected",
+    "targetPin": "Analog_In_4"
+  },
+  {
+    "type": "data",
+    "label": "Power Monitor ADC Data",
+    "source": "main_mcu",
+    "target": "power_monitor_adc",
+    "protocol": "spi",
+    "sourcePin": "PL_SPI",
+    "targetPin": "SPI"
+  },
+  {
+    "type": "data",
+    "label": "Output Matrix Control",
+    "source": "main_mcu",
+    "target": "rf_relay_matrix_output",
+    "protocol": "spi",
+    "sourcePin": "PL_SPI",
+    "targetPin": "Control_SPI"
+  },
+  {
+    "type": "data",
+    "label": "RF to IMN1",
+    "source": "rf_relay_matrix_output",
+    "target": "impedance_matching_network_1",
+    "protocol": "analog",
+    "sourcePin": "RF_Out_1",
+    "targetPin": "RF_In"
+  },
+  {
+    "type": "data",
+    "label": "RF to T-450",
+    "source": "impedance_matching_network_1",
+    "target": "transducer_t450",
+    "protocol": "analog",
+    "sourcePin": "RF_Out",
+    "targetPin": "RF_In_SMA"
+  },
+  {
+    "type": "data",
+    "label": "IMN1 Control",
+    "source": "main_mcu",
+    "target": "impedance_matching_network_1",
+    "protocol": "i2c",
+    "sourcePin": "PL_I2C",
+    "targetPin": "I2C_Stepper_Control"
+  },
+  {
+    "type": "data",
+    "label": "IMN1 Feedback",
+    "source": "main_mcu",
+    "target": "impedance_matching_network_1",
+    "protocol": "gpio",
+    "sourcePin": "FPGA_GPIO",
+    "targetPin": "Feedback"
+  },
+  {
+    "type": "data",
+    "label": "RF to IMN2",
+    "source": "rf_relay_matrix_output",
+    "target": "impedance_matching_network_2",
+    "protocol": "analog",
+    "sourcePin": "RF_Out_2",
+    "targetPin": "RF_In"
+  },
+  {
+    "type": "data",
+    "label": "RF to T-709",
+    "source": "impedance_matching_network_2",
+    "target": "transducer_t709",
+    "protocol": "analog",
+    "sourcePin": "RF_Out",
+    "targetPin": "RF_In_SMA"
+  },
+  {
+    "type": "data",
+    "label": "IMN2 Control",
+    "source": "main_mcu",
+    "target": "impedance_matching_network_2",
+    "protocol": "i2c",
+    "sourcePin": "PL_I2C",
+    "targetPin": "I2C_Stepper_Control"
+  },
+  {
+    "type": "data",
+    "label": "IMN2 Feedback",
+    "source": "main_mcu",
+    "target": "impedance_matching_network_2",
+    "protocol": "gpio",
+    "sourcePin": "FPGA_GPIO",
+    "targetPin": "Feedback"
+  },
+  {
+    "type": "data",
+    "label": "RF to IMN3",
+    "source": "rf_relay_matrix_output",
+    "target": "impedance_matching_network_3",
+    "protocol": "analog",
+    "sourcePin": "RF_Out_3",
+    "targetPin": "RF_In"
+  },
+  {
+    "type": "data",
+    "label": "RF to T-788",
+    "source": "impedance_matching_network_3",
+    "target": "transducer_t788",
+    "protocol": "analog",
+    "sourcePin": "RF_Out",
+    "targetPin": "RF_In_SMA"
+  },
+  {
+    "type": "data",
+    "label": "IMN3 Control",
+    "source": "main_mcu",
+    "target": "impedance_matching_network_3",
+    "protocol": "i2c",
+    "sourcePin": "PL_I2C",
+    "targetPin": "I2C_Stepper_Control"
+  },
+  {
+    "type": "data",
+    "label": "IMN3 Feedback",
+    "source": "main_mcu",
+    "target": "impedance_matching_network_3",
+    "protocol": "gpio",
+    "sourcePin": "FPGA_GPIO",
+    "targetPin": "Feedback"
+  },
+  {
+    "type": "data",
+    "label": "RF to IMN4",
+    "source": "rf_relay_matrix_output",
+    "target": "impedance_matching_network_4",
+    "protocol": "analog",
+    "sourcePin": "RF_Out_4",
+    "targetPin": "RF_In"
+  },
+  {
+    "type": "data",
+    "label": "RF to T-886",
+    "source": "impedance_matching_network_4",
+    "target": "transducer_t886",
+    "protocol": "analog",
+    "sourcePin": "RF_Out",
+    "targetPin": "RF_In_SMA"
+  },
+  {
+    "type": "data",
+    "label": "IMN4 Control",
+    "source": "main_mcu",
+    "target": "impedance_matching_network_4",
+    "protocol": "i2c",
+    "sourcePin": "PL_I2C",
+    "targetPin": "I2C_Stepper_Control"
+  },
+  {
+    "type": "data",
+    "label": "IMN4 Feedback",
+    "source": "main_mcu",
+    "target": "impedance_matching_network_4",
+    "protocol": "gpio",
+    "sourcePin": "FPGA_GPIO",
+    "targetPin": "Feedback"
+  },
+  {
+    "type": "data",
+    "label": "RF to IMN5",
+    "source": "rf_relay_matrix_output",
+    "target": "impedance_matching_network_5",
+    "protocol": "analog",
+    "sourcePin": "RF_Out_5",
+    "targetPin": "RF_In"
+  },
+  {
+    "type": "data",
+    "label": "RF to T-1013",
+    "source": "impedance_matching_network_5",
+    "target": "transducer_t1013",
+    "protocol": "analog",
+    "sourcePin": "RF_Out",
+    "targetPin": "RF_In_SMA"
+  },
+  {
+    "type": "data",
+    "label": "IMN5 Control",
+    "source": "main_mcu",
+    "target": "impedance_matching_network_5",
+    "protocol": "i2c",
+    "sourcePin": "PL_I2C",
+    "targetPin": "I2C_Stepper_Control"
+  },
+  {
+    "type": "data",
+    "label": "IMN5 Feedback",
+    "source": "main_mcu",
+    "target": "impedance_matching_network_5",
+    "protocol": "gpio",
+    "sourcePin": "FPGA_GPIO",
+    "targetPin": "Feedback"
+  },
+  {
+    "type": "data",
+    "label": "RF to IMN6",
+    "source": "rf_relay_matrix_output",
+    "target": "impedance_matching_network_6",
+    "protocol": "analog",
+    "sourcePin": "RF_Out_6",
+    "targetPin": "RF_In"
+  },
+  {
+    "type": "data",
+    "label": "RF to T-1182",
+    "source": "impedance_matching_network_6",
+    "target": "transducer_t1182",
+    "protocol": "analog",
+    "sourcePin": "RF_Out",
+    "targetPin": "RF_In_SMA"
+  },
+  {
+    "type": "data",
+    "label": "IMN6 Control",
+    "source": "main_mcu",
+    "target": "impedance_matching_network_6",
+    "protocol": "i2c",
+    "sourcePin": "PL_I2C",
+    "targetPin": "I2C_Stepper_Control"
+  },
+  {
+    "type": "data",
+    "label": "IMN6 Feedback",
+    "source": "main_mcu",
+    "target": "impedance_matching_network_6",
+    "protocol": "gpio",
+    "sourcePin": "FPGA_GPIO",
+    "targetPin": "Feedback"
+  },
+  {
+    "type": "data",
+    "label": "RF to IMN7",
+    "source": "rf_relay_matrix_output",
+    "target": "impedance_matching_network_7",
+    "protocol": "analog",
+    "sourcePin": "RF_Out_7",
+    "targetPin": "RF_In"
+  },
+  {
+    "type": "data",
+    "label": "RF to T-1773",
+    "source": "impedance_matching_network_7",
+    "target": "transducer_t1773",
+    "protocol": "analog",
+    "sourcePin": "RF_Out",
+    "targetPin": "RF_In_SMA"
+  },
+  {
+    "type": "data",
+    "label": "IMN7 Control",
+    "source": "main_mcu",
+    "target": "impedance_matching_network_7",
+    "protocol": "i2c",
+    "sourcePin": "PL_I2C",
+    "targetPin": "I2C_Stepper_Control"
+  },
+  {
+    "type": "data",
+    "label": "IMN7 Feedback",
+    "source": "main_mcu",
+    "target": "impedance_matching_network_7",
+    "protocol": "gpio",
+    "sourcePin": "FPGA_GPIO",
+    "targetPin": "Feedback"
+  },
+  {
+    "type": "data",
+    "label": "RF to IMN8",
+    "source": "rf_relay_matrix_output",
+    "target": "impedance_matching_network_8",
+    "protocol": "analog",
+    "sourcePin": "RF_Out_8",
+    "targetPin": "RF_In"
+  },
+  {
+    "type": "data",
+    "label": "RF to T-2000",
+    "source": "impedance_matching_network_8",
+    "target": "transducer_t2000",
+    "protocol": "analog",
+    "sourcePin": "RF_Out",
+    "targetPin": "RF_In_SMA"
+  },
+  {
+    "type": "data",
+    "label": "IMN8 Control",
+    "source": "main_mcu",
+    "target": "impedance_matching_network_8",
+    "protocol": "i2c",
+    "sourcePin": "PL_I2C",
+    "targetPin": "I2C_Stepper_Control"
+  },
+  {
+    "type": "data",
+    "label": "IMN8 Feedback",
+    "source": "main_mcu",
+    "target": "impedance_matching_network_8",
+    "protocol": "gpio",
+    "sourcePin": "FPGA_GPIO",
+    "targetPin": "Feedback"
+  },
+  {
+    "type": "data",
+    "label": "Hydrophone Signal",
+    "source": "hydrophone_sensor",
+    "target": "hydrophone_preamp",
+    "protocol": "analog",
+    "sourcePin": "BNC_Out",
+    "targetPin": "Analog_In"
+  },
+  {
+    "type": "data",
+    "label": "Hydrophone ADC Input",
+    "source": "hydrophone_preamp",
+    "target": "power_monitor_adc",
+    "protocol": "analog",
+    "sourcePin": "BNC_Out",
+    "targetPin": "Analog_In_3"
+  },
+  {
+    "type": "data",
+    "label": "PCD Raw Signal",
+    "source": "pcd_sensor",
+    "target": "pcd_filter_bank",
+    "protocol": "analog",
+    "sourcePin": "Analog_Out",
+    "targetPin": "Analog_In"
+  },
+  {
+    "type": "data",
+    "label": "PCD Filtered Signal",
+    "source": "pcd_filter_bank",
+    "target": "power_monitor_adc",
+    "protocol": "analog",
+    "sourcePin": "Analog_Out_Broadband",
+    "targetPin": "Analog_In_4"
+  },
+  {
+    "type": "data",
+    "label": "X Stepper Step",
+    "source": "main_mcu",
+    "target": "xyz_stepper_driver_x",
+    "protocol": "gpio",
+    "sourcePin": "FPGA_GPIO",
+    "targetPin": "Step"
+  },
+  {
+    "type": "data",
+    "label": "X Stepper Dir",
+    "source": "main_mcu",
+    "target": "xyz_stepper_driver_x",
+    "protocol": "gpio",
+    "sourcePin": "FPGA_GPIO",
+    "targetPin": "Dir"
+  },
+  {
+    "type": "data",
+    "label": "X Stepper Motor Control",
+    "source": "xyz_stepper_driver_x",
+    "target": "xyz_stepper_x",
+    "protocol": "pwm",
+    "sourcePin": "Motor_Out",
+    "targetPin": "Motor_A1, Motor_A2, Motor_B1, Motor_B2"
+  },
+  {
+    "type": "data",
+    "label": "X Stepper Config UART",
+    "source": "main_mcu",
+    "target": "xyz_stepper_driver_x",
+    "protocol": "uart",
+    "sourcePin": "PL_UART",
+    "targetPin": "UART"
+  },
+  {
+    "type": "data",
+    "label": "X Encoder A",
+    "source": "xyz_encoder_x",
+    "target": "main_mcu",
+    "protocol": "gpio",
+    "sourcePin": "A_Out",
+    "targetPin": "FPGA_GPIO"
+  },
+  {
+    "type": "data",
+    "label": "X Encoder B",
+    "source": "xyz_encoder_x",
+    "target": "main_mcu",
+    "protocol": "gpio",
+    "sourcePin": "B_Out",
+    "targetPin": "FPGA_GPIO"
+  },
+  {
+    "type": "data",
+    "label": "Y Stepper Step",
+    "source": "main_mcu",
+    "target": "xyz_stepper_driver_y",
+    "protocol": "gpio",
+    "sourcePin": "FPGA_GPIO",
+    "targetPin": "Step"
+  },
+  {
+    "type": "data",
+    "label": "Y Stepper Dir",
+    "source": "main_mcu",
+    "target": "xyz_stepper_driver_y",
+    "protocol": "gpio",
+    "sourcePin": "FPGA_GPIO",
+    "targetPin": "Dir"
+  },
+  {
+    "type": "data",
+    "label": "Y Stepper Motor Control",
+    "source": "xyz_stepper_driver_y",
+    "target": "xyz_stepper_y",
+    "protocol": "pwm",
+    "sourcePin": "Motor_Out",
+    "targetPin": "Motor_A1, Motor_A2, Motor_B1, Motor_B2"
+  },
+  {
+    "type": "data",
+    "label": "Y Stepper Config UART",
+    "source": "main_mcu",
+    "target": "xyz_stepper_driver_y",
+    "protocol": "uart",
+    "sourcePin": "PL_UART",
+    "targetPin": "UART"
+  },
+  {
+    "type": "data",
+    "label": "Y Encoder A",
+    "source": "xyz_encoder_y",
+    "target": "main_mcu",
+    "protocol": "gpio",
+    "sourcePin": "A_Out",
+    "targetPin": "FPGA_GPIO"
+  },
+  {
+    "type": "data",
+    "label": "Y Encoder B",
+    "source": "xyz_encoder_y",
+    "target": "main_mcu",
+    "protocol": "gpio",
+    "sourcePin": "B_Out",
+    "targetPin": "FPGA_GPIO"
+  },
+  {
+    "type": "data",
+    "label": "Z Stepper Step",
+    "source": "main_mcu",
+    "target": "xyz_stepper_driver_z",
+    "protocol": "gpio",
+    "sourcePin": "FPGA_GPIO",
+    "targetPin": "Step"
+  },
+  {
+    "type": "data",
+    "label": "Z Stepper Dir",
+    "source": "main_mcu",
+    "target": "xyz_stepper_driver_z",
+    "protocol": "gpio",
+    "sourcePin": "FPGA_GPIO",
+    "targetPin": "Dir"
+  },
+  {
+    "type": "data",
+    "label": "Z Stepper Motor Control",
+    "source": "xyz_stepper_driver_z",
+    "target": "xyz_stepper_z",
+    "protocol": "pwm",
+    "sourcePin": "Motor_Out",
+    "targetPin": "Motor_A1, Motor_A2, Motor_B1, Motor_B2"
+  },
+  {
+    "type": "data",
+    "label": "Z Stepper Config UART",
+    "source": "main_mcu",
+    "target": "xyz_stepper_driver_z",
+    "protocol": "uart",
+    "sourcePin": "PL_UART",
+    "targetPin": "UART"
+  },
+  {
+    "type": "data",
+    "label": "Z Encoder A",
+    "source": "xyz_encoder_z",
+    "target": "main_mcu",
+    "protocol": "gpio",
+    "sourcePin": "A_Out",
+    "targetPin": "FPGA_GPIO"
+  },
+  {
+    "type": "data",
+    "label": "Z Encoder B",
+    "source": "xyz_encoder_z",
+    "target": "main_mcu",
+    "protocol": "gpio",
+    "sourcePin": "B_Out",
+    "targetPin": "FPGA_GPIO"
+  },
+  {
+    "type": "data",
+    "label": "Chamber RTD Input",
+    "source": "pt100_chamber",
+    "target": "rtd_amplifier_chamber",
+    "protocol": "analog",
+    "sourcePin": "RTD_Pins",
+    "targetPin": "RTD_Input_Pins"
+  },
+  {
+    "type": "data",
+    "label": "Chamber RTD Data",
+    "source": "rtd_amplifier_chamber",
+    "target": "main_mcu",
+    "protocol": "spi",
+    "sourcePin": "SPI",
+    "targetPin": "PL_SPI"
+  },
+  {
+    "type": "data",
+    "label": "Peltier Control PWM",
+    "source": "main_mcu",
+    "target": "peltier_tec_chamber",
+    "protocol": "pwm",
+    "sourcePin": "FPGA_GPIO",
+    "targetPin": "Power_Positive"
+  },
+  {
+    "type": "data",
+    "label": "O2 Sensor Data",
+    "source": "optical_o2_sensor",
+    "target": "main_mcu",
+    "protocol": "uart",
+    "sourcePin": "UART",
+    "targetPin": "PL_UART"
+  },
+  {
+    "type": "data",
+    "label": "CO2 Sensor Data",
+    "source": "co2_sensor",
+    "target": "main_mcu",
+    "protocol": "i2c",
+    "sourcePin": "I2C",
+    "targetPin": "PL_I2C"
+  },
+  {
+    "type": "data",
+    "label": "Animal RTD Input",
+    "source": "pt100_animal_stage",
+    "target": "rtd_amplifier_animal_stage",
+    "protocol": "analog",
+    "sourcePin": "RTD_Pins",
+    "targetPin": "RTD_Input_Pins"
+  },
+  {
+    "type": "data",
+    "label": "Animal RTD Data",
+    "source": "rtd_amplifier_animal_stage",
+    "target": "main_mcu",
+    "protocol": "spi",
+    "sourcePin": "SPI",
+    "targetPin": "PL_SPI"
+  },
+  {
+    "type": "data",
+    "label": "Animal Heater Control PWM",
+    "source": "main_mcu",
+    "target": "animal_stage_heater",
+    "protocol": "pwm",
+    "sourcePin": "FPGA_GPIO",
+    "targetPin": "Power_Positive"
+  },
+  {
+    "type": "data",
+    "label": "Respiration ADC Input",
+    "source": "respiration_pressure_sensor",
+    "target": "main_mcu",
+    "protocol": "analog",
+    "sourcePin": "Analog_Out",
+    "targetPin": "PL_SPI"
+  },
+  {
+    "type": "data",
+    "label": "Water Bath Temp Data",
+    "source": "water_bath_temp_sensor",
+    "target": "main_mcu",
+    "protocol": "onewire",
+    "sourcePin": "OneWire_Data",
+    "targetPin": "FPGA_GPIO"
+  },
+  {
+    "type": "data",
+    "label": "Reflector Actuator Control",
+    "source": "main_mcu",
+    "target": "reflector_linear_actuator",
+    "protocol": "pwm",
+    "sourcePin": "FPGA_GPIO",
+    "targetPin": "Motor_A1, Motor_A2, Motor_B1, Motor_B2"
+  },
+  {
+    "type": "data",
+    "label": "Reflector Encoder A",
+    "source": "reflector_linear_encoder",
+    "target": "main_mcu",
+    "protocol": "gpio",
+    "sourcePin": "A_Out",
+    "targetPin": "FPGA_GPIO"
+  },
+  {
+    "type": "data",
+    "label": "Reflector Encoder B",
+    "source": "reflector_linear_encoder",
+    "target": "main_mcu",
+    "protocol": "gpio",
+    "sourcePin": "B_Out",
+    "targetPin": "FPGA_GPIO"
+  },
+  {
+    "type": "data",
+    "label": "E-Stop to Safety Relay",
+    "source": "e_stop_button",
+    "target": "safety_relay_module",
+    "protocol": "gpio",
+    "sourcePin": "NC_Contacts",
+    "targetPin": "E_Stop_In"
+  },
+  {
+    "type": "data",
+    "label": "Door Interlock to Safety Relay",
+    "source": "door_interlock_switch",
+    "target": "safety_relay_module",
+    "protocol": "gpio",
+    "sourcePin": "NC_Contacts",
+    "targetPin": "Door_Interlock_In"
+  },
+  {
+    "type": "data",
+    "label": "Thermal Cutoff to Safety Relay",
+    "source": "thermal_cutoff_comparator",
+    "target": "safety_relay_module",
+    "protocol": "gpio",
+    "sourcePin": "43C_Threshold_Out_NC",
+    "targetPin": "Thermal_Cutoff_In"
+  },
+  {
+    "type": "data",
+    "label": "Pressure Limit to Safety Relay",
+    "source": "pressure_limit_comparator",
+    "target": "safety_relay_module",
+    "protocol": "gpio",
+    "sourcePin": "1.5MPa_Threshold_Out_NC",
+    "targetPin": "Pressure_Limit_In"
+  },
+  {
+    "type": "data",
+    "label": "Animal Temp to Safety Relay",
+    "source": "animal_temp_window_comparator",
+    "target": "safety_relay_module",
+    "protocol": "gpio",
+    "sourcePin": "35_39C_Window_Out_NC",
+    "targetPin": "Animal_Temp_In"
+  },
+  {
+    "type": "data",
+    "label": "Anesthesia Flow to Safety Relay",
+    "source": "anesthesia_flow_sensor",
+    "target": "safety_relay_module",
+    "protocol": "gpio",
+    "sourcePin": "NC_Contacts",
+    "targetPin": "Anesthesia_Flow_In"
+  },
+  {
+    "type": "data",
+    "label": "Watchdog Heartbeat to Safety Relay",
+    "source": "safety_watchdog_mcu",
+    "target": "safety_relay_module",
+    "protocol": "gpio",
+    "sourcePin": "GPIO_Safety_Relay_Out",
+    "targetPin": "MCU_Watchdog_In"
+  },
+  {
+    "type": "data",
+    "label": "Safety Amp Enable A",
+    "source": "safety_relay_module",
+    "target": "rf_amplifier_a",
+    "protocol": "gpio",
+    "sourcePin": "RF_Amp_Enable_Out",
+    "targetPin": "TTL_Enable"
+  },
+  {
+    "type": "data",
+    "label": "Safety Amp Enable B",
+    "source": "safety_relay_module",
+    "target": "rf_amplifier_b",
+    "protocol": "gpio",
+    "sourcePin": "RF_Amp_Enable_Out",
+    "targetPin": "TTL_Enable"
+  },
+  {
+    "type": "data",
+    "label": "Safety Status to Zynq",
+    "source": "safety_relay_module",
+    "target": "main_mcu",
+    "protocol": "gpio",
+    "sourcePin": "Status_Out_NC",
+    "targetPin": "FPGA_GPIO"
+  },
+  {
+    "type": "data",
+    "label": "Zynq Heartbeat Out",
+    "source": "main_mcu",
+    "target": "safety_watchdog_mcu",
+    "protocol": "gpio",
+    "sourcePin": "FPGA_GPIO",
+    "targetPin": "GPIO_Heartbeat_In"
+  },
+  {
+    "type": "data",
+    "label": "Display Video",
+    "source": "main_mcu",
+    "target": "display_touchscreen",
+    "protocol": "lvds",
+    "sourcePin": "AXI",
+    "targetPin": "LVDS_In"
+  },
+  {
+    "type": "data",
+    "label": "Display Touch",
+    "source": "main_mcu",
+    "target": "display_touchscreen",
+    "protocol": "usb",
+    "sourcePin": "PS_USB3.0",
+    "targetPin": "USB_Touch"
+  },
+  {
+    "type": "data",
+    "label": "Camera Data",
+    "source": "main_mcu",
+    "target": "imaging_camera",
+    "protocol": "usb",
+    "sourcePin": "PS_USB3.0",
+    "targetPin": "USB3_Data"
+  },
+  {
+    "type": "data",
+    "label": "Camera Trigger",
+    "source": "main_mcu",
+    "target": "imaging_camera",
+    "protocol": "gpio",
+    "sourcePin": "FPGA_GPIO",
+    "targetPin": "GPIO_Trigger"
+  },
+  {
+    "type": "data",
+    "label": "LED Illumination Control",
+    "source": "main_mcu",
+    "target": "led_illumination_470nm",
+    "protocol": "gpio",
+    "sourcePin": "FPGA_GPIO",
+    "targetPin": "Power_Positive"
+  },
+  {
+    "type": "data",
+    "label": "Turret Stepper Step",
+    "source": "main_mcu",
+    "target": "transducer_turret_stepper_driver",
+    "protocol": "gpio",
+    "sourcePin": "FPGA_GPIO",
+    "targetPin": "Step"
+  },
+  {
+    "type": "data",
+    "label": "Turret Stepper Dir",
+    "source": "main_mcu",
+    "target": "transducer_turret_stepper_driver",
+    "protocol": "gpio",
+    "sourcePin": "FPGA_GPIO",
+    "targetPin": "Dir"
+  },
+  {
+    "type": "data",
+    "label": "Turret Stepper Motor Control",
+    "source": "transducer_turret_stepper_driver",
+    "target": "transducer_turret_stepper",
+    "protocol": "pwm",
+    "sourcePin": "Motor_Out",
+    "targetPin": "Motor_A1, Motor_A2, Motor_B1, Motor_B2"
+  },
+  {
+    "type": "data",
+    "label": "Turret Stepper Config UART",
+    "source": "main_mcu",
+    "target": "transducer_turret_stepper_driver",
+    "protocol": "uart",
+    "sourcePin": "PL_UART",
+    "targetPin": "UART"
+  },
+  {
+    "type": "data",
+    "label": "Turret Encoder A",
+    "source": "transducer_turret_stepper",
+    "target": "main_mcu",
+    "protocol": "gpio",
+    "sourcePin": "Encoder_A",
+    "targetPin": "FPGA_GPIO"
+  },
+  {
+    "type": "data",
+    "label": "Turret Encoder B",
+    "source": "transducer_turret_stepper",
+    "target": "main_mcu",
+    "protocol": "gpio",
+    "sourcePin": "Encoder_B",
+    "targetPin": "FPGA_GPIO"
+  },
+  {
+    "type": "data",
+    "label": "Reflector Stepper Step",
+    "source": "main_mcu",
+    "target": "reflector_stage_stepper_driver",
+    "protocol": "gpio",
+    "sourcePin": "FPGA_GPIO",
+    "targetPin": "Step"
+  },
+  {
+    "type": "data",
+    "label": "Reflector Stepper Dir",
+    "source": "main_mcu",
+    "target": "reflector_stage_stepper_driver",
+    "protocol": "gpio",
+    "sourcePin": "FPGA_GPIO",
+    "targetPin": "Dir"
+  },
+  {
+    "type": "data",
+    "label": "Reflector Stepper Motor Control",
+    "source": "reflector_stage_stepper_driver",
+    "target": "reflector_stage_stepper",
+    "protocol": "pwm",
+    "sourcePin": "Motor_Out",
+    "targetPin": "Motor_A1, Motor_A2, Motor_B1, Motor_B2"
+  },
+  {
+    "type": "data",
+    "label": "Reflector Stepper Config UART",
+    "source": "main_mcu",
+    "target": "reflector_stage_stepper_driver",
+    "protocol": "uart",
+    "sourcePin": "PL_UART",
+    "targetPin": "UART"
+  }
+]

@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.pyc
+src/__pycache__/
+
+# Results
+results/Memorial_Oncotripsy_Simulation_*/
+results/*.csv
+results/hardware_params*.json
+
+# Archives
+hardware/blueprint_v2/*.zip
+hardware/blueprints/
+
+# Notebooks
+.ipynb_checkpoints/
+notebooks/
+
+# Env
+.env
+venv/
+
+# OS
+.DS_Store
+Thumbs.db
+
+*.sha256

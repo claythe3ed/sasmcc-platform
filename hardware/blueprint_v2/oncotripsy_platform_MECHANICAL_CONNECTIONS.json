@@ -1,0 +1,1157 @@
+[
+  {
+    "label": "M6 bolts into T-slot nuts",
+    "source": "frame_front_vertical",
+    "target": "frame_corner_bracket"
+  },
+  {
+    "label": "M6 bolts into T-slot nuts",
+    "source": "frame_rear_vertical",
+    "target": "frame_corner_bracket"
+  },
+  {
+    "label": "M6 bolts into T-slot nuts",
+    "source": "frame_left_horizontal_bottom",
+    "target": "frame_corner_bracket"
+  },
+  {
+    "label": "M6 bolts into T-slot nuts",
+    "source": "frame_right_horizontal_bottom",
+    "target": "frame_corner_bracket"
+  },
+  {
+    "label": "M6 bolts into T-slot nuts",
+    "source": "frame_front_horizontal_bottom",
+    "target": "frame_corner_bracket"
+  },
+  {
+    "label": "M6 bolts into T-slot nuts",
+    "source": "frame_rear_horizontal_bottom",
+    "target": "frame_corner_bracket"
+  },
+  {
+    "label": "M6 bolts into T-slot nuts",
+    "source": "frame_left_horizontal_middle",
+    "target": "frame_corner_bracket"
+  },
+  {
+    "label": "M6 bolts into T-slot nuts",
+    "source": "frame_right_horizontal_middle",
+    "target": "frame_corner_bracket"
+  },
+  {
+    "label": "M6 bolts into T-slot nuts",
+    "source": "frame_front_horizontal_middle",
+    "target": "frame_corner_bracket"
+  },
+  {
+    "label": "M6 bolts into T-slot nuts",
+    "source": "frame_rear_horizontal_middle",
+    "target": "frame_corner_bracket"
+  },
+  {
+    "label": "M6 bolts into T-slot nuts",
+    "source": "frame_left_horizontal_top",
+    "target": "frame_corner_bracket"
+  },
+  {
+    "label": "M6 bolts into T-slot nuts",
+    "source": "frame_right_horizontal_top",
+    "target": "frame_corner_bracket"
+  },
+  {
+    "label": "M6 bolts into T-slot nuts",
+    "source": "frame_front_horizontal_top",
+    "target": "frame_corner_bracket"
+  },
+  {
+    "label": "M6 bolts into T-slot nuts",
+    "source": "frame_rear_horizontal_top",
+    "target": "frame_corner_bracket"
+  },
+  {
+    "label": "Attached with M6 button head screw",
+    "source": "frame_corner_bracket",
+    "target": "t_slot_nut_m6"
+  },
+  {
+    "label": "Engages M6 button head screw",
+    "source": "t_slot_nut_m6",
+    "target": "m6_button_head_screw"
+  },
+  {
+    "label": "Bolted to bottom extrusion",
+    "source": "sorbothane_foot",
+    "target": "frame_front_horizontal_bottom"
+  },
+  {
+    "label": "Bolted to bottom extrusion",
+    "source": "sorbothane_foot",
+    "target": "frame_rear_horizontal_bottom"
+  },
+  {
+    "label": "Mounted to bottom horizontal extrusions",
+    "source": "bottom_shelf_plate",
+    "target": "frame_front_horizontal_bottom"
+  },
+  {
+    "label": "Mounted to bottom horizontal extrusions",
+    "source": "bottom_shelf_plate",
+    "target": "frame_rear_horizontal_bottom"
+  },
+  {
+    "label": "Mounted to bottom horizontal extrusions",
+    "source": "bottom_shelf_plate",
+    "target": "frame_left_horizontal_bottom"
+  },
+  {
+    "label": "Mounted to bottom horizontal extrusions",
+    "source": "bottom_shelf_plate",
+    "target": "frame_right_horizontal_bottom"
+  },
+  {
+    "label": "Mounted to middle horizontal extrusions",
+    "source": "middle_shelf_plate",
+    "target": "frame_front_horizontal_middle"
+  },
+  {
+    "label": "Mounted to middle horizontal extrusions",
+    "source": "middle_shelf_plate",
+    "target": "frame_rear_horizontal_middle"
+  },
+  {
+    "label": "Mounted to middle horizontal extrusions",
+    "source": "middle_shelf_plate",
+    "target": "frame_left_horizontal_middle"
+  },
+  {
+    "label": "Mounted to middle horizontal extrusions",
+    "source": "middle_shelf_plate",
+    "target": "frame_right_horizontal_middle"
+  },
+  {
+    "label": "Mounted to top horizontal extrusions",
+    "source": "top_shelf_plate",
+    "target": "frame_front_horizontal_top"
+  },
+  {
+    "label": "Mounted to top horizontal extrusions",
+    "source": "top_shelf_plate",
+    "target": "frame_rear_horizontal_top"
+  },
+  {
+    "label": "Mounted to top horizontal extrusions",
+    "source": "top_shelf_plate",
+    "target": "frame_left_horizontal_top"
+  },
+  {
+    "label": "Mounted to top horizontal extrusions",
+    "source": "top_shelf_plate",
+    "target": "frame_right_horizontal_top"
+  },
+  {
+    "label": "Attached to frame extrusions",
+    "source": "enclosure_front_panel",
+    "target": "frame_front_vertical"
+  },
+  {
+    "label": "Attached to frame extrusions",
+    "source": "enclosure_rear_panel",
+    "target": "frame_rear_vertical"
+  },
+  {
+    "label": "Attached to frame extrusions",
+    "source": "enclosure_side_panel_left",
+    "target": "frame_left_horizontal_bottom"
+  },
+  {
+    "label": "Attached to frame extrusions",
+    "source": "enclosure_side_panel_left",
+    "target": "frame_left_horizontal_middle"
+  },
+  {
+    "label": "Attached to frame extrusions",
+    "source": "enclosure_side_panel_left",
+    "target": "frame_left_horizontal_top"
+  },
+  {
+    "label": "Attached to frame extrusions",
+    "source": "enclosure_side_panel_right",
+    "target": "frame_right_horizontal_bottom"
+  },
+  {
+    "label": "Attached to frame extrusions",
+    "source": "enclosure_side_panel_right",
+    "target": "frame_right_horizontal_middle"
+  },
+  {
+    "label": "Attached to frame extrusions",
+    "source": "enclosure_side_panel_right",
+    "target": "frame_right_horizontal_top"
+  },
+  {
+    "label": "Attached to top frame extrusions",
+    "source": "enclosure_top_panel",
+    "target": "frame_front_horizontal_top"
+  },
+  {
+    "label": "Attached to top frame extrusions",
+    "source": "enclosure_top_panel",
+    "target": "frame_rear_horizontal_top"
+  },
+  {
+    "label": "Attached to top frame extrusions",
+    "source": "enclosure_top_panel",
+    "target": "frame_left_horizontal_top"
+  },
+  {
+    "label": "Attached to top frame extrusions",
+    "source": "enclosure_top_panel",
+    "target": "frame_right_horizontal_top"
+  },
+  {
+    "label": "Adhered to interior surface",
+    "source": "enclosure_acoustic_foam_panels",
+    "target": "enclosure_front_panel"
+  },
+  {
+    "label": "Adhered to interior surface",
+    "source": "enclosure_acoustic_foam_panels",
+    "target": "enclosure_rear_panel"
+  },
+  {
+    "label": "Adhered to interior surface",
+    "source": "enclosure_acoustic_foam_panels",
+    "target": "enclosure_side_panel_left"
+  },
+  {
+    "label": "Adhered to interior surface",
+    "source": "enclosure_acoustic_foam_panels",
+    "target": "enclosure_side_panel_right"
+  },
+  {
+    "label": "Adhered to interior surface",
+    "source": "enclosure_acoustic_foam_panels",
+    "target": "enclosure_top_panel"
+  },
+  {
+    "label": "Attached via fasteners",
+    "source": "enclosure_door_acrylic",
+    "target": "enclosure_door_hinge"
+  },
+  {
+    "label": "Mounted to front vertical extrusion",
+    "source": "enclosure_door_hinge",
+    "target": "frame_front_vertical"
+  },
+  {
+    "label": "Mounted to panel",
+    "source": "magnetic_door_catch",
+    "target": "enclosure_front_panel"
+  },
+  {
+    "label": "Engages with door",
+    "source": "magnetic_door_catch",
+    "target": "enclosure_door_acrylic"
+  },
+  {
+    "label": "Mounted to panel opening with screws",
+    "source": "cooling_fan_120mm",
+    "target": "enclosure_rear_panel"
+  },
+  {
+    "label": "Mounted over fan intake opening",
+    "source": "fan_filter_120mm",
+    "target": "enclosure_rear_panel"
+  },
+  {
+    "label": "Bolted to top shelf",
+    "source": "rf_amp_mount_plate_a",
+    "target": "top_shelf_plate"
+  },
+  {
+    "label": "Bolted to top shelf",
+    "source": "rf_amp_mount_plate_b",
+    "target": "top_shelf_plate"
+  },
+  {
+    "label": "Bolted to top shelf",
+    "source": "matching_network_mount_bracket",
+    "target": "top_shelf_plate"
+  },
+  {
+    "label": "Bolted to top shelf",
+    "source": "chiller_pump_bracket",
+    "target": "top_shelf_plate"
+  },
+  {
+    "label": "Placed on middle shelf",
+    "source": "water_bath_reservoir",
+    "target": "middle_shelf_plate"
+  },
+  {
+    "label": "Bolted to middle shelf",
+    "source": "transducer_turret_main_body",
+    "target": "middle_shelf_plate"
+  },
+  {
+    "label": "Secured within turret body",
+    "source": "turret_kinematic_mount_bay_1",
+    "target": "transducer_turret_main_body"
+  },
+  {
+    "label": "Secured within turret body",
+    "source": "turret_kinematic_mount_bay_2",
+    "target": "transducer_turret_main_body"
+  },
+  {
+    "label": "Secured within turret body",
+    "source": "turret_kinematic_mount_bay_3",
+    "target": "transducer_turret_main_body"
+  },
+  {
+    "label": "Secured within turret body",
+    "source": "turret_kinematic_mount_bay_4",
+    "target": "transducer_turret_main_body"
+  },
+  {
+    "label": "Secured within turret body",
+    "source": "turret_kinematic_mount_bay_5",
+    "target": "transducer_turret_main_body"
+  },
+  {
+    "label": "Secured within turret body",
+    "source": "turret_kinematic_mount_bay_6",
+    "target": "transducer_turret_main_body"
+  },
+  {
+    "label": "Secured within turret body",
+    "source": "turret_kinematic_mount_bay_7",
+    "target": "transducer_turret_main_body"
+  },
+  {
+    "label": "Secured within turret body",
+    "source": "turret_kinematic_mount_bay_8",
+    "target": "transducer_turret_main_body"
+  },
+  {
+    "label": "Attached to turret body",
+    "source": "turret_stepper_motor_mount",
+    "target": "transducer_turret_main_body"
+  },
+  {
+    "label": "Bolted to middle shelf",
+    "source": "xyz_stage_x_rail",
+    "target": "middle_shelf_plate"
+  },
+  {
+    "label": "Mounted to X-axis carriage",
+    "source": "xyz_stage_y_rail",
+    "target": "xyz_stage_x_rail"
+  },
+  {
+    "label": "Mounted to Y-axis carriage",
+    "source": "xyz_stage_z_rail",
+    "target": "xyz_stage_y_rail"
+  },
+  {
+    "label": "Mounted with bearings to middle shelf",
+    "source": "xyz_stage_x_leadscrew",
+    "target": "middle_shelf_plate"
+  },
+  {
+    "label": "Mounted with bearings to X-axis carriage",
+    "source": "xyz_stage_y_leadscrew",
+    "target": "xyz_stage_x_rail"
+  },
+  {
+    "label": "Mounted with bearings to Y-axis carriage",
+    "source": "xyz_stage_z_leadscrew",
+    "target": "xyz_stage_y_rail"
+  },
+  {
+    "label": "Bolted to middle shelf",
+    "source": "xyz_stepper_mount_x",
+    "target": "middle_shelf_plate"
+  },
+  {
+    "label": "Bolted to X-axis carriage",
+    "source": "xyz_stepper_mount_y",
+    "target": "xyz_stage_x_rail"
+  },
+  {
+    "label": "Bolted to Y-axis carriage",
+    "source": "xyz_stepper_mount_z",
+    "target": "xyz_stage_y_rail"
+  },
+  {
+    "label": "Attached to X-axis carriage",
+    "source": "leadscrew_nut_block",
+    "target": "xyz_stage_x_rail"
+  },
+  {
+    "label": "Attached to Y-axis carriage",
+    "source": "leadscrew_nut_block",
+    "target": "xyz_stage_y_rail"
+  },
+  {
+    "label": "Attached to Z-axis carriage",
+    "source": "leadscrew_nut_block",
+    "target": "xyz_stage_z_rail"
+  },
+  {
+    "label": "Mounted to Z-axis carriage",
+    "source": "cell_culture_chamber_frame",
+    "target": "xyz_stage_z_rail"
+  },
+  {
+    "label": "Sealed into chamber frame",
+    "source": "fused_quartz_bottom",
+    "target": "cell_culture_chamber_frame"
+  },
+  {
+    "label": "Sealed to chamber frame",
+    "source": "borosilicate_chamber_wall",
+    "target": "cell_culture_chamber_frame"
+  },
+  {
+    "label": "Sealed to quartz bottom",
+    "source": "borosilicate_chamber_wall",
+    "target": "fused_quartz_bottom"
+  },
+  {
+    "label": "Seals lid to wall",
+    "source": "o_ring_chamber_seal",
+    "target": "borosilicate_chamber_wall"
+  },
+  {
+    "label": "Seals lid to wall",
+    "source": "o_ring_chamber_seal",
+    "target": "chamber_lid_with_ports"
+  },
+  {
+    "label": "Removably sealed to chamber wall",
+    "source": "chamber_lid_with_ports",
+    "target": "borosilicate_chamber_wall"
+  },
+  {
+    "label": "Mounted to Z-axis carriage",
+    "source": "phantom_holder_base",
+    "target": "xyz_stage_z_rail"
+  },
+  {
+    "label": "Integrated into holder base",
+    "source": "phantom_depth_adjustment_mechanism",
+    "target": "phantom_holder_base"
+  },
+  {
+    "label": "Held within adjustment mechanism",
+    "source": "phantom_set_cylindrical",
+    "target": "phantom_depth_adjustment_mechanism"
+  },
+  {
+    "label": "Mounted to middle shelf, possibly on expansion bay",
+    "source": "animal_stage_base_platform",
+    "target": "middle_shelf_plate"
+  },
+  {
+    "label": "Attached to base platform",
+    "source": "animal_stage_heating_block",
+    "target": "animal_stage_base_platform"
+  },
+  {
+    "label": "Mounted to base platform",
+    "source": "animal_stage_nose_cone_holder",
+    "target": "animal_stage_base_platform"
+  },
+  {
+    "label": "Integrated into heating platform",
+    "source": "respiration_pad_holder",
+    "target": "animal_stage_heating_block"
+  },
+  {
+    "label": "Integrated into animal stage",
+    "source": "degassed_water_coupling_membrane",
+    "target": "animal_stage_base_platform"
+  },
+  {
+    "label": "Placed on middle shelf",
+    "source": "recovery_chamber_enclosure",
+    "target": "middle_shelf_plate"
+  },
+  {
+    "label": "Attached to actuator mount",
+    "source": "reflector_plate_stainless",
+    "target": "reflector_actuator_mount"
+  },
+  {
+    "label": "Mounted to middle shelf",
+    "source": "reflector_actuator_mount",
+    "target": "middle_shelf_plate"
+  },
+  {
+    "label": "Integrated with actuator mount",
+    "source": "reflector_tilt_mechanism",
+    "target": "reflector_actuator_mount"
+  },
+  {
+    "label": "Mounted to Z-axis carriage",
+    "source": "hydrophone_xyz_mount_base",
+    "target": "xyz_stage_z_rail"
+  },
+  {
+    "label": "Mounted to water bath wall",
+    "source": "pcd_sensor_mount",
+    "target": "water_bath_reservoir"
+  },
+  {
+    "label": "Mounted to front panel opening",
+    "source": "display_bezel",
+    "target": "enclosure_front_panel"
+  },
+  {
+    "label": "Mounted to front panel opening",
+    "source": "e_stop_button_panel_mount",
+    "target": "enclosure_front_panel"
+  },
+  {
+    "label": "Mounted to front panel opening",
+    "source": "usb_panel_mount_adapter",
+    "target": "enclosure_front_panel"
+  },
+  {
+    "label": "Mounted to rear panel opening",
+    "source": "power_inlet_iec",
+    "target": "enclosure_rear_panel"
+  },
+  {
+    "label": "Mounted to rear panel opening",
+    "source": "ethernet_panel_mount",
+    "target": "enclosure_rear_panel"
+  },
+  {
+    "label": "Mounted to rear panel",
+    "source": "gas_port_fittings",
+    "target": "enclosure_rear_panel"
+  },
+  {
+    "label": "Mounted to rear panel",
+    "source": "waste_gas_scavenging_connector",
+    "target": "enclosure_rear_panel"
+  },
+  {
+    "label": "Mounted to chamber lid",
+    "source": "optical_o2_sensor_holder",
+    "target": "chamber_lid_with_ports"
+  },
+  {
+    "label": "Mounted to chamber lid",
+    "source": "co2_sensor_housing",
+    "target": "chamber_lid_with_ports"
+  },
+  {
+    "label": "Mounted to bottom shelf",
+    "source": "safety_relay_din_rail",
+    "target": "bottom_shelf_plate"
+  },
+  {
+    "label": "Mounted to bottom shelf",
+    "source": "power_supply_mount_bracket",
+    "target": "bottom_shelf_plate"
+  },
+  {
+    "label": "Mounted to bottom shelf",
+    "source": "buck_converter_enclosure",
+    "target": "bottom_shelf_plate"
+  },
+  {
+    "label": "Mounted to middle shelf",
+    "source": "imaging_camera_mount",
+    "target": "middle_shelf_plate"
+  },
+  {
+    "label": "Mounted to middle shelf",
+    "source": "led_illumination_mount",
+    "target": "middle_shelf_plate"
+  },
+  {
+    "label": "Mounted to middle shelf",
+    "source": "secondary_xyz_axis_frame",
+    "target": "middle_shelf_plate"
+  },
+  {
+    "label": "Mounted to secondary XYZ axis",
+    "source": "imaging_probe_mount",
+    "target": "secondary_xyz_axis_frame"
+  },
+  {
+    "label": "Mounted to bottom shelf",
+    "source": "rt_controller_mount",
+    "target": "bottom_shelf_plate"
+  },
+  {
+    "label": "Mounted near main MCU",
+    "source": "stm32_watchdog_mount",
+    "target": "rt_controller_mount"
+  },
+  {
+    "label": "Mounted to bottom shelf",
+    "source": "dds_dac_mount",
+    "target": "bottom_shelf_plate"
+  },
+  {
+    "label": "Mounted to bottom shelf",
+    "source": "rf_variable_attenuator_mount",
+    "target": "bottom_shelf_plate"
+  },
+  {
+    "label": "Mounted to bottom shelf",
+    "source": "rf_relay_matrix_a_in_mount",
+    "target": "bottom_shelf_plate"
+  },
+  {
+    "label": "Mounted to bottom shelf",
+    "source": "rf_relay_matrix_b_in_mount",
+    "target": "bottom_shelf_plate"
+  },
+  {
+    "label": "Mounted to bottom shelf",
+    "source": "rf_relay_matrix_output_mount",
+    "target": "bottom_shelf_plate"
+  },
+  {
+    "label": "Mounted to top shelf",
+    "source": "directional_coupler_a_mount",
+    "target": "top_shelf_plate"
+  },
+  {
+    "label": "Mounted to top shelf",
+    "source": "directional_coupler_b_mount",
+    "target": "top_shelf_plate"
+  },
+  {
+    "label": "Mounted to bottom shelf",
+    "source": "power_monitor_adc_mount",
+    "target": "bottom_shelf_plate"
+  },
+  {
+    "label": "Bolted to top shelf",
+    "source": "impedance_matching_network_2_mount",
+    "target": "top_shelf_plate"
+  },
+  {
+    "label": "Bolted to top shelf",
+    "source": "impedance_matching_network_3_mount",
+    "target": "top_shelf_plate"
+  },
+  {
+    "label": "Bolted to top shelf",
+    "source": "impedance_matching_network_4_mount",
+    "target": "top_shelf_plate"
+  },
+  {
+    "label": "Bolted to top shelf",
+    "source": "impedance_matching_network_5_mount",
+    "target": "top_shelf_plate"
+  },
+  {
+    "label": "Bolted to top shelf",
+    "source": "impedance_matching_network_6_mount",
+    "target": "top_shelf_plate"
+  },
+  {
+    "label": "Bolted to top shelf",
+    "source": "impedance_matching_network_7_mount",
+    "target": "top_shelf_plate"
+  },
+  {
+    "label": "Bolted to top shelf",
+    "source": "impedance_matching_network_8_mount",
+    "target": "top_shelf_plate"
+  },
+  {
+    "label": "Mounted to bottom shelf",
+    "source": "rf_switch_mount",
+    "target": "bottom_shelf_plate"
+  },
+  {
+    "label": "Mounted to hydrophone base",
+    "source": "hydrophone_preamp_mount",
+    "target": "hydrophone_xyz_mount_base"
+  },
+  {
+    "label": "Mounted to bottom shelf",
+    "source": "pcd_filter_bank_mount",
+    "target": "bottom_shelf_plate"
+  },
+  {
+    "label": "Mounted to bottom shelf",
+    "source": "xyz_stepper_driver_x_mount",
+    "target": "bottom_shelf_plate"
+  },
+  {
+    "label": "Mounted to bottom shelf",
+    "source": "xyz_stepper_driver_y_mount",
+    "target": "bottom_shelf_plate"
+  },
+  {
+    "label": "Mounted to bottom shelf",
+    "source": "xyz_stepper_driver_z_mount",
+    "target": "bottom_shelf_plate"
+  },
+  {
+    "label": "Attached to X-axis leadscrew end",
+    "source": "xyz_encoder_x_mount",
+    "target": "xyz_stage_x_leadscrew"
+  },
+  {
+    "label": "Attached to Y-axis leadscrew end",
+    "source": "xyz_encoder_y_mount",
+    "target": "xyz_stage_y_leadscrew"
+  },
+  {
+    "label": "Attached to Z-axis leadscrew end",
+    "source": "xyz_encoder_z_mount",
+    "target": "xyz_stage_z_leadscrew"
+  },
+  {
+    "label": "Integrated into chamber wall",
+    "source": "pt100_chamber_mount",
+    "target": "borosilicate_chamber_wall"
+  },
+  {
+    "label": "Mounted to chamber frame",
+    "source": "rtd_amplifier_chamber_mount",
+    "target": "cell_culture_chamber_frame"
+  },
+  {
+    "label": "Attached to heating block",
+    "source": "animal_stage_heater_mount",
+    "target": "animal_stage_heating_block"
+  },
+  {
+    "label": "Integrated into heating block",
+    "source": "pt100_animal_stage_mount",
+    "target": "animal_stage_heating_block"
+  },
+  {
+    "label": "Mounted to animal stage platform",
+    "source": "rtd_amplifier_animal_stage_mount",
+    "target": "animal_stage_base_platform"
+  },
+  {
+    "label": "Integrated into water bath",
+    "source": "chiller_loop_thermoelectric_mount",
+    "target": "water_bath_reservoir"
+  },
+  {
+    "label": "Integrated into water bath",
+    "source": "water_bath_temp_sensor_mount",
+    "target": "water_bath_reservoir"
+  },
+  {
+    "label": "Attached to reflector actuator",
+    "source": "reflector_linear_encoder_mount",
+    "target": "reflector_actuator_mount"
+  },
+  {
+    "label": "Mounted to enclosure panel",
+    "source": "door_interlock_switch_mount",
+    "target": "enclosure_front_panel"
+  },
+  {
+    "label": "Interacts with door for safety",
+    "source": "door_interlock_switch_mount",
+    "target": "enclosure_door_acrylic"
+  },
+  {
+    "label": "Mounted to bottom shelf",
+    "source": "thermal_cutoff_comparator_mount",
+    "target": "bottom_shelf_plate"
+  },
+  {
+    "label": "Mounted to bottom shelf",
+    "source": "pressure_limit_comparator_mount",
+    "target": "bottom_shelf_plate"
+  },
+  {
+    "label": "Mounted to bottom shelf",
+    "source": "animal_temp_window_comparator_mount",
+    "target": "bottom_shelf_plate"
+  },
+  {
+    "label": "Mounted to rear panel",
+    "source": "anesthesia_flow_sensor_mount",
+    "target": "enclosure_rear_panel"
+  },
+  {
+    "label": "Mounted to bottom shelf",
+    "source": "transducer_turret_stepper_driver_mount",
+    "target": "bottom_shelf_plate"
+  },
+  {
+    "label": "Mounted to bottom shelf",
+    "source": "reflector_stage_stepper_driver_mount",
+    "target": "bottom_shelf_plate"
+  },
+  {
+    "label": "mount",
+    "source": "rf_amp_mount_plate_a",
+    "target": "rf_amplifier_a"
+  },
+  {
+    "label": "mount",
+    "source": "rf_amp_mount_plate_b",
+    "target": "rf_amplifier_b"
+  },
+  {
+    "label": "mount",
+    "source": "matching_network_mount_bracket",
+    "target": "impedance_matching_network_1"
+  },
+  {
+    "label": "mount",
+    "source": "chiller_pump_bracket",
+    "target": "circulation_pump"
+  },
+  {
+    "label": "mount",
+    "source": "turret_kinematic_mount_bay_1",
+    "target": "transducer_t450"
+  },
+  {
+    "label": "mount",
+    "source": "turret_kinematic_mount_bay_2",
+    "target": "transducer_t709"
+  },
+  {
+    "label": "mount",
+    "source": "turret_kinematic_mount_bay_3",
+    "target": "transducer_t788"
+  },
+  {
+    "label": "mount",
+    "source": "turret_kinematic_mount_bay_4",
+    "target": "transducer_t886"
+  },
+  {
+    "label": "mount",
+    "source": "turret_kinematic_mount_bay_5",
+    "target": "transducer_t1013"
+  },
+  {
+    "label": "mount",
+    "source": "turret_kinematic_mount_bay_6",
+    "target": "transducer_t1182"
+  },
+  {
+    "label": "mount",
+    "source": "turret_kinematic_mount_bay_7",
+    "target": "transducer_t1773"
+  },
+  {
+    "label": "mount",
+    "source": "turret_kinematic_mount_bay_8",
+    "target": "transducer_t2000"
+  },
+  {
+    "label": "mount",
+    "source": "turret_stepper_motor_mount",
+    "target": "transducer_turret_stepper"
+  },
+  {
+    "label": "mount",
+    "source": "xyz_stepper_mount_x",
+    "target": "xyz_stepper_x"
+  },
+  {
+    "label": "mount",
+    "source": "xyz_stepper_mount_y",
+    "target": "xyz_stepper_y"
+  },
+  {
+    "label": "mount",
+    "source": "xyz_stepper_mount_z",
+    "target": "xyz_stepper_z"
+  },
+  {
+    "label": "mount",
+    "source": "animal_stage_heating_block",
+    "target": "peltier_tec_chamber"
+  },
+  {
+    "label": "mount",
+    "source": "respiration_pad_holder",
+    "target": "respiration_pressure_sensor"
+  },
+  {
+    "label": "mount",
+    "source": "reflector_actuator_mount",
+    "target": "reflector_linear_actuator"
+  },
+  {
+    "label": "mount",
+    "source": "reflector_tilt_mechanism",
+    "target": "reflector_stage_stepper"
+  },
+  {
+    "label": "mount",
+    "source": "hydrophone_xyz_mount_base",
+    "target": "hydrophone_sensor"
+  },
+  {
+    "label": "mount",
+    "source": "pcd_sensor_mount",
+    "target": "pcd_sensor"
+  },
+  {
+    "label": "mount",
+    "source": "display_bezel",
+    "target": "display_touchscreen"
+  },
+  {
+    "label": "mount",
+    "source": "e_stop_button_panel_mount",
+    "target": "e_stop_button"
+  },
+  {
+    "label": "mount",
+    "source": "optical_o2_sensor_holder",
+    "target": "optical_o2_sensor"
+  },
+  {
+    "label": "mount",
+    "source": "co2_sensor_housing",
+    "target": "co2_sensor"
+  },
+  {
+    "label": "mount",
+    "source": "safety_relay_din_rail",
+    "target": "safety_relay_module"
+  },
+  {
+    "label": "mount",
+    "source": "power_supply_mount_bracket",
+    "target": "24v_power_supply"
+  },
+  {
+    "label": "mount",
+    "source": "buck_converter_enclosure",
+    "target": "5v_buck_converter"
+  },
+  {
+    "label": "mount",
+    "source": "imaging_camera_mount",
+    "target": "imaging_camera"
+  },
+  {
+    "label": "mount",
+    "source": "led_illumination_mount",
+    "target": "led_illumination_470nm"
+  },
+  {
+    "label": "mount",
+    "source": "rt_controller_mount",
+    "target": "main_mcu"
+  },
+  {
+    "label": "mount",
+    "source": "stm32_watchdog_mount",
+    "target": "safety_watchdog_mcu"
+  },
+  {
+    "label": "mount",
+    "source": "dds_dac_mount",
+    "target": "dds_dac"
+  },
+  {
+    "label": "mount",
+    "source": "rf_variable_attenuator_mount",
+    "target": "rf_variable_attenuator"
+  },
+  {
+    "label": "mount",
+    "source": "rf_relay_matrix_a_in_mount",
+    "target": "rf_relay_matrix_a_in"
+  },
+  {
+    "label": "mount",
+    "source": "rf_relay_matrix_b_in_mount",
+    "target": "rf_relay_matrix_b_in"
+  },
+  {
+    "label": "mount",
+    "source": "rf_relay_matrix_output_mount",
+    "target": "rf_relay_matrix_output"
+  },
+  {
+    "label": "mount",
+    "source": "directional_coupler_a_mount",
+    "target": "directional_coupler_a"
+  },
+  {
+    "label": "mount",
+    "source": "directional_coupler_b_mount",
+    "target": "directional_coupler_b"
+  },
+  {
+    "label": "mount",
+    "source": "power_monitor_adc_mount",
+    "target": "power_monitor_adc"
+  },
+  {
+    "label": "mount",
+    "source": "impedance_matching_network_2_mount",
+    "target": "impedance_matching_network_2"
+  },
+  {
+    "label": "mount",
+    "source": "impedance_matching_network_3_mount",
+    "target": "impedance_matching_network_3"
+  },
+  {
+    "label": "mount",
+    "source": "impedance_matching_network_4_mount",
+    "target": "impedance_matching_network_4"
+  },
+  {
+    "label": "mount",
+    "source": "impedance_matching_network_5_mount",
+    "target": "impedance_matching_network_5"
+  },
+  {
+    "label": "mount",
+    "source": "impedance_matching_network_6_mount",
+    "target": "impedance_matching_network_6"
+  },
+  {
+    "label": "mount",
+    "source": "impedance_matching_network_7_mount",
+    "target": "impedance_matching_network_7"
+  },
+  {
+    "label": "mount",
+    "source": "impedance_matching_network_8_mount",
+    "target": "impedance_matching_network_8"
+  },
+  {
+    "label": "mount",
+    "source": "rf_switch_mount",
+    "target": "rf_switch"
+  },
+  {
+    "label": "mount",
+    "source": "hydrophone_preamp_mount",
+    "target": "hydrophone_preamp"
+  },
+  {
+    "label": "mount",
+    "source": "pcd_filter_bank_mount",
+    "target": "pcd_filter_bank"
+  },
+  {
+    "label": "mount",
+    "source": "xyz_stepper_driver_x_mount",
+    "target": "xyz_stepper_driver_x"
+  },
+  {
+    "label": "mount",
+    "source": "xyz_stepper_driver_y_mount",
+    "target": "xyz_stepper_driver_y"
+  },
+  {
+    "label": "mount",
+    "source": "xyz_stepper_driver_z_mount",
+    "target": "xyz_stepper_driver_z"
+  },
+  {
+    "label": "mount",
+    "source": "xyz_encoder_x_mount",
+    "target": "xyz_encoder_x"
+  },
+  {
+    "label": "mount",
+    "source": "xyz_encoder_y_mount",
+    "target": "xyz_encoder_y"
+  },
+  {
+    "label": "mount",
+    "source": "xyz_encoder_z_mount",
+    "target": "xyz_encoder_z"
+  },
+  {
+    "label": "mount",
+    "source": "pt100_chamber_mount",
+    "target": "pt100_chamber"
+  },
+  {
+    "label": "mount",
+    "source": "rtd_amplifier_chamber_mount",
+    "target": "rtd_amplifier_chamber"
+  },
+  {
+    "label": "mount",
+    "source": "animal_stage_heater_mount",
+    "target": "animal_stage_heater"
+  },
+  {
+    "label": "mount",
+    "source": "pt100_animal_stage_mount",
+    "target": "pt100_animal_stage"
+  },
+  {
+    "label": "mount",
+    "source": "rtd_amplifier_animal_stage_mount",
+    "target": "rtd_amplifier_animal_stage"
+  },
+  {
+    "label": "mount",
+    "source": "chiller_loop_thermoelectric_mount",
+    "target": "chiller_loop_thermoelectric"
+  },
+  {
+    "label": "mount",
+    "source": "water_bath_temp_sensor_mount",
+    "target": "water_bath_temp_sensor"
+  },
+  {
+    "label": "mount",
+    "source": "reflector_linear_encoder_mount",
+    "target": "reflector_linear_encoder"
+  },
+  {
+    "label": "mount",
+    "source": "door_interlock_switch_mount",
+    "target": "door_interlock_switch"
+  },
+  {
+    "label": "mount",
+    "source": "thermal_cutoff_comparator_mount",
+    "target": "thermal_cutoff_comparator"
+  },
+  {
+    "label": "mount",
+    "source": "pressure_limit_comparator_mount",
+    "target": "pressure_limit_comparator"
+  },
+  {
+    "label": "mount",
+    "source": "animal_temp_window_comparator_mount",
+    "target": "animal_temp_window_comparator"
+  },
+  {
+    "label": "mount",
+    "source": "anesthesia_flow_sensor_mount",
+    "target": "anesthesia_flow_sensor"
+  },
+  {
+    "label": "mount",
+    "source": "transducer_turret_stepper_driver_mount",
+    "target": "transducer_turret_stepper_driver"
+  },
+  {
+    "label": "mount",
+    "source": "reflector_stage_stepper_driver_mount",
+    "target": "reflector_stage_stepper_driver"
+  }
+]
