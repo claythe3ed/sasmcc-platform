@@ -1,3 +1,12 @@
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+![Version](https://img.shields.io/badge/version-5.3-blue)
+![CI](https://github.com/claythe3ed/sasmcc-platform/actions/workflows/ci.yml/badge.svg)
+![Python](https://img.shields.io/badge/Python-3.11-blue.svg)
+![Hardware](https://img.shields.io/badge/Hardware-208%20Parts-brightgreen)
+![Electrical](https://img.shields.io/badge/Electrical-164%20Connections-orange)
+![Cost](https://img.shields.io/badge/Cost-10.2k--16.2k%20USD-blue)
+![Simulation](https://img.shields.io/badge/Simulation-9%2F9%20PASS-success)
+![GitHub stars](https://img.shields.io/github/stars/claythe3ed/sasmcc-platform?style=social)
 # S-ASM-CC Platform
 ### Treatment Engine and Hardware Blueprint
 
