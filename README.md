@@ -9,7 +9,7 @@
 
 Treatment simulation engine and complete preclinical hardware blueprint for the S-ASM-CC Physics Engine (https://github.com/claythe3ed/sasmcc-physics-engine).
 
-Contains S-ASM-CC v5.3 canonical treatment simulation (nine cancer types, all passing), pan-cancer biophysical database from primary AFM literature, nine hardware parameter JSON files, complete preclinical platform blueprint (208 parts, 164 electrical connections, 231 mechanical connections), and three automated consistency hooks.
+Contains S-ASM-CC v5.3 canonical treatment simulation (nine cancer types, all passing), pan-cancer biophysical database from primary AFM literature and ADC‑derived water fraction values, nine hardware parameter JSON files, complete preclinical platform blueprint (208 parts, 164 electrical connections, 231 mechanical connections), and three automated consistency hooks.
 
 ---
 
@@ -26,21 +26,23 @@ Expected: all nine cancer types PASS, threshold agreement 0.00%, all hooks exit 
 
 ---
 
-## Cancer Type Schedule
+## Cancer Type Schedule (All 9 Types Now Complete with f_water)
 
-| Type | Frequency | Pa_opt | Selectivity | Status |
-|------|-----------|--------|-------------|--------|
-| OSCC | 450 kHz | 0.644 MPa | 73.9x | VALIDATED |
-| Breast IDC | 2000 kHz | 0.643 MPa | 965.5x | STIFFNESS_VALIDATED |
-| Prostate | 886 kHz | 0.708 MPa | 1352.3x | STIFFNESS_VALIDATED |
-| Lung NSCLC | 1182 kHz | 0.570 MPa | 55.5x | STIFFNESS_VALIDATED |
-| Colorectal | 1013 kHz | 0.615 MPa | 269.5x | STIFFNESS_VALIDATED |
-| Pancreatic | 709 kHz | 0.744 MPa | 310.8x | STIFFNESS_VALIDATED |
-| Glioblastoma | 1773 kHz | 0.520 MPa | 26.1x | STIFFNESS_VALIDATED* |
-| Cervical | 1182 kHz | 0.607 MPa | 95.7x | STIFFNESS_VALIDATED |
-| Liver HCC | 788 kHz | 0.650 MPa | 190.4x | PREDICTED |
+| Type | Frequency | Pa_opt | f_water | Selectivity | Status |
+|------|-----------|--------|---------|-------------|--------|
+| OSCC | 450 kHz | 0.644 MPa | 0.780 | 73.9x | VALIDATED |
+| Breast IDC | 2000 kHz | 0.643 MPa | 0.732 | 965.5x | STIFFNESS_VALIDATED |
+| Prostate | 886 kHz | 0.708 MPa | 0.742 | 1352.3x | STIFFNESS_VALIDATED |
+| Lung NSCLC | 1182 kHz | 0.570 MPa | 0.812 | 55.5x | STIFFNESS_VALIDATED |
+| Colorectal | 1013 kHz | 0.615 MPa | 0.728 | 269.5x | STIFFNESS_VALIDATED |
+| Pancreatic | 709 kHz | 0.744 MPa | 0.728 | 310.8x | STIFFNESS_VALIDATED |
+| Glioblastoma | 1773 kHz | 0.520 MPa | 0.752 | 26.1x | STIFFNESS_VALIDATED* |
+| Cervical | 1182 kHz | 0.607 MPa | 0.729 | 95.7x | STIFFNESS_VALIDATED |
+| Liver HCC | 788 kHz | 0.650 MPa | 0.787 | 190.4x | STIFFNESS_VALIDATED |
 
-*GBM stiffer than normal brain. Stiffness opposes selectivity.
+*GBM stiffer than normal brain. Stiffness opposes selectivity; water fraction carries selectivity alone.
+
+f_water values derived from ADC literature for 8 types (plus OSCC validated). All 9 types now have complete biophysical parameters. QENS validation pending via Martins/Bordallo collaboration (University of Copenhagen).
 
 ---
 
@@ -77,6 +79,14 @@ All three pass as of v5.3, knowledge graph v17, 2026-06-23.
 - Ciesluk et al. (2020). Int J Nanomedicine. PMC7547774
 - Marques et al. (2022). Cancers 14, 5053. PMC9600571
 - PMC4678138 cervical cancer AFM
+- Diagnostics 2022. DOI: 10.3390/diagnostics12020332 (Breast IDC f_water)
+- OncoTargets 2022. DOI: 10.2147/OTT.S366723 (Prostate f_water)
+- Cancers 2020. DOI: 10.3390/cancers12061493 (Lung NSCLC f_water)
+- Insights Imaging 2022. DOI: 10.1007/s13244-022-01268-7 (Pancreatic f_water)
+- Insights Imaging 2019. DOI: 10.1186/s13244-019-0719-6 (Glioblastoma f_water)
+- PLOS ONE 2023. DOI: 10.1371/journal.pone.0285786 (Cervical f_water)
+- PLOS ONE 2016. DOI: 10.1371/journal.pone.0153944 (Colorectal f_water)
+- Meta-analysis (HCC f_water)
 
 ---
 
