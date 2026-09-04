@@ -7,7 +7,11 @@
 ![Cost](https://img.shields.io/badge/Cost-10.2k--16.2k%20USD-blue)
 ![Simulation](https://img.shields.io/badge/Simulation-9%2F9%20PASS-success)
 ![GitHub stars](https://img.shields.io/github/stars/claythe3ed/sasmcc-platform?style=social)
+
 # S-ASM-CC Platform
+
+![S-ASM-CC Logo](logo.jpeg)
+
 ### Treatment Engine and Hardware Blueprint
 
 *Dedicated to Ali Sayed Muhammad Osman (1957-2022). Every equation. Every simulation. Every result.*
