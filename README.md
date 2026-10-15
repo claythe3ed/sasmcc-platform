@@ -22,7 +22,7 @@
 
 Treatment simulation engine and complete preclinical hardware blueprint for the S-ASM-CC Physics Engine (https://github.com/claythe3ed/sasmcc-physics-engine).
 
-Contains S-ASM-CC v5.3 canonical treatment simulation (nine cancer types, all passing), pan-cancer biophysical database from primary AFM literature and ADC‑derived water fraction values, nine hardware parameter JSON files, complete preclinical platform blueprint (208 parts, 164 electrical connections, 231 mechanical connections), and three automated consistency hooks.
+Contains S-ASM-CC v5.3 canonical treatment simulation (nine cancer types, all passing), pan-cancer biophysical database from primary AFM literature and assumed water fraction values, nine hardware parameter JSON files, complete preclinical platform blueprint (208 parts, 164 electrical connections, 231 mechanical connections), and three automated consistency hooks.
 
 ---
 
@@ -43,19 +43,19 @@ Expected: all nine cancer types PASS, threshold agreement 0.00%, all hooks exit 
 
 | Type | Frequency | Pa_opt | f_water | Selectivity | Status |
 |------|-----------|--------|---------|-------------|--------|
-| OSCC | 450 kHz | 0.644 MPa | 0.780 | 73.9x | VALIDATED |
-| Breast IDC | 2000 kHz | 0.643 MPa | 0.732 | 965.5x | STIFFNESS_VALIDATED |
-| Prostate | 886 kHz | 0.708 MPa | 0.742 | 1352.3x | STIFFNESS_VALIDATED |
-| Lung NSCLC | 1182 kHz | 0.570 MPa | 0.812 | 55.5x | STIFFNESS_VALIDATED |
-| Colorectal | 1013 kHz | 0.615 MPa | 0.728 | 269.5x | STIFFNESS_VALIDATED |
-| Pancreatic | 709 kHz | 0.744 MPa | 0.728 | 310.8x | STIFFNESS_VALIDATED |
-| Glioblastoma | 1773 kHz | 0.520 MPa | 0.752 | 26.1x | STIFFNESS_VALIDATED* |
-| Cervical | 1182 kHz | 0.607 MPa | 0.729 | 95.7x | STIFFNESS_VALIDATED |
-| Liver HCC | 788 kHz | 0.650 MPa | 0.787 | 190.4x | STIFFNESS_VALIDATED |
+| OSCC | 450 kHz | 0.644 MPa | 0.780 | 73.9x | REFERENCE |
+| Breast IDC | 2000 kHz | 0.643 MPa | 0.790 | 965.5x | STIFFNESS_SUPPORTED |
+| Prostate | 886 kHz | 0.708 MPa | 0.760 | 1352.3x | STIFFNESS_SUPPORTED |
+| Lung NSCLC | 1182 kHz | 0.570 MPa | 0.820 | 55.5x | STIFFNESS_SUPPORTED |
+| Colorectal | 1013 kHz | 0.615 MPa | 0.800 | 269.5x | PREDICTED |
+| Pancreatic | 709 kHz | 0.744 MPa | 0.740 | 310.8x | STIFFNESS_SUPPORTED |
+| Glioblastoma | 1773 kHz | 0.520 MPa | 0.850 | 26.1x | STIFFNESS_SUPPORTED* |
+| Cervical | 1182 kHz | 0.607 MPa | 0.800 | 95.7x | STIFFNESS_SUPPORTED |
+| Liver HCC | 788 kHz | 0.650 MPa | 0.780 | 190.4x | PREDICTED |
 
 *GBM stiffer than normal brain. Stiffness opposes selectivity; water fraction carries selectivity alone.
 
-f_water values derived from ADC literature for 8 types (plus OSCC validated). All 9 types now have complete biophysical parameters. QENS validation pending via Martins/Bordallo collaboration (University of Copenhagen).
+Water fractions (cancer and normal) are assumed values, not measurements (see paper, Section 2.8). ADC-based estimates were explored but are not used by the engine. QENS measurements are pending.
 
 ---
 
@@ -90,7 +90,7 @@ All three pass as of v5.3, knowledge graph v17, 2026-06-23.
 - Mittelstein et al. (2020). APL 116, 013701. doi:10.1063/1.5128627
 - Cross et al. (2007). Nature Nanotechnology 2, 780.
 - Ciesluk et al. (2020). Int J Nanomedicine. PMC7547774
-- Marques et al. (2022). Cancers 14, 5053. PMC9600571
+- Brás et al. (2022). Cancers 14, 5053. PMC9600571
 - PMC4678138 cervical cancer AFM
 - Diagnostics 2022. DOI: 10.3390/diagnostics12020332 (Breast IDC f_water)
 - OncoTargets 2022. DOI: 10.2147/OTT.S366723 (Prostate f_water)
@@ -106,7 +106,7 @@ All three pass as of v5.3, knowledge graph v17, 2026-06-23.
 ## Collaboration
 
 - QENS water fraction data: Martins/Bordallo group, University of Copenhagen
-- Preclinical validation: Mittelstein/Shapiro/Gharib group, Caltech
+- Relevant experimental group (no collaboration implied): Mittelstein/Shapiro/Gharib group, Caltech
 - Institutional: KAIMRC, QBRI, King Hussein Cancer Center
 
 ---
@@ -116,3 +116,7 @@ All three pass as of v5.3, knowledge graph v17, 2026-06-23.
 MIT. See LICENSE.
 
 *Dedicated to Ali Sayed Muhammad Osman (1957-2022).*
+
+## Status note (14 October 2026)
+
+All results in this repository are computational model outputs. None has been compared with an experimental selectivity measurement. The OSCC value of 88.38x comes from an earlier version of this model (S-ASM-CC v5.1), so the 83.5x vs 88.4x comparison is an internal consistency check. Free-water fractions are assumed values, not measurements; ADC-based estimates were explored but are not used by the engine. Evidence tiers in the paper are REFERENCE (code label VALIDATED, OSCC only), STIFFNESS-SUPPORTED (code label STIFFNESS_VALIDATED) and PREDICTED.

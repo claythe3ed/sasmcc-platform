@@ -3,7 +3,7 @@ Cancer Cell Database — S-ASM-CC v5.1 Extension
 ================================================
 Physics-based cell parameters per cancer type.
 Derived from sonoluminescence physics engine
-(~/sonoluminescence) validated against S-ASM-CC v5.1.
+(~/sonoluminescence) cross-checked against S-ASM-CC v5.1 (internal).
 
 Physics basis:
   - Cross et al. Nature Nanotechnology 2007 (stiffness)
@@ -79,11 +79,11 @@ _RAW_DATABASE = {
         validation_status    = ValidationStatus.VALIDATED,
         evidence = [
             "S-ASM-CC v5.1 simulation (88.38x selectivity)",
-            "Mittelstein et al. APL 2020",
-            "AFM cortical stiffness measurement",
+            "Mittelstein et al. APL 2020 (physics basis only; no OSCC data)",
+            "OSCC stiffness and water fraction are estimates (no OSCC-specific source cited)",
         ],
-        notes = "PRIMARY TARGET. Fully validated. "
-                "Pa=0.640 MPa, f=450 kHz confirmed."
+        notes = "PRIMARY TARGET. Reference case; inputs assumed, not experimentally validated. "
+                "Pa=0.640 MPa, f=450 kHz (model optimum)."
     ),
     "BREAST": CancerCellParameters(
         cancer_type          = "Breast Invasive Ductal Carcinoma",
