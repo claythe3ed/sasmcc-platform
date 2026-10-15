@@ -25,3 +25,4 @@ venv/
 Thumbs.db
 
 *.sha256
+src/results/
