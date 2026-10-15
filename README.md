@@ -53,7 +53,7 @@ Expected: all nine cancer types PASS, threshold agreement 0.00%, all hooks exit 
 | Cervical | 1182 kHz | 0.607 MPa | 0.800 | 95.7x | STIFFNESS_SUPPORTED |
 | Liver HCC | 788 kHz | 0.650 MPa | 0.780 | 190.4x | PREDICTED |
 
-*GBM stiffer than normal brain. Stiffness opposes selectivity; water fraction carries selectivity alone.
+*GBM stiffer than normal brain. The stiffness term is below 1% of the threshold window, so water fraction carries the selectivity.
 
 Water fractions (cancer and normal) are assumed values, not measurements (see paper, Section 2.8). ADC-based estimates were explored but are not used by the engine. QENS measurements are pending.
 
